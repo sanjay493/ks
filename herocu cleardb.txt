@@ -1,0 +1,10 @@
+mysql://b80c97a8ae59f0:e0664e82@eu-cdbr-west-02.cleardb.net/heroku_330833ee1cd03c6?reconnect=true
+
+
+CREATE TABLE `heroku_330833ee1cd03c6`.`newslist` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `news_date` DATE NULL,
+  `headline` VARCHAR(145) NULL,
+  `para1` LONGTEXT NULL,
+  `link` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
